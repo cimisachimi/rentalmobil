@@ -1,15 +1,19 @@
 'use client';
 import { useLocale } from 'next-intl';
-import { useRouter, usePathname } from '@/src/i18n/routing';
+import { useRouter } from 'next/navigation';
 
 export default function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
-  const pathname = usePathname();
 
   const toggleLanguage = () => {
     const nextLocale = locale === 'id' ? 'en' : 'id';
-    router.replace(pathname, { locale: nextLocale });
+
+    // Set cookie untuk menyimpan preferensi bahasa
+    document.cookie = `locale=${nextLocale}; path=/; max-age=31536000`;
+
+    // Refresh halaman di URL yang sama (/) agar server membaca cookie baru
+    router.refresh();
   };
 
   return (
