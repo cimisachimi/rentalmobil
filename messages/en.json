@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "fleet": "Fleet",
+    "whyUs": "Why Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Reliable Car Rental in Yogyakarta",
+    "subtitle": "Clean, well-maintained vehicles ready for your Jogja trip.",
+    "cta": "Choose Car"
+  },
+  "fleet": {
+    "title": "Our Vehicles",
+    "subtitle": "Two top-tier options tailored for your travel needs in Jogja",
+    "perDay": "/day",
+    "bookNow": "Book via WhatsApp"
+  },
+  "whyUs": {
+    "title": "Why Choose Us?",
+    "points": [
+      {
+        "title": "Clean & Maintained",
+        "desc": "Serviced regularly and sanitized before every handover."
+      },
+      {
+        "title": "Self-Drive or Driver",
+        "desc": "Flexible options depending on your itinerary."
+      },
+      {
+        "title": "Free Drop & Pick",
+        "desc": "Available at Tugu Station, Lempuyangan, and YIA Airport (T&C apply)."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

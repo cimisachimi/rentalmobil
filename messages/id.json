@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "fleet": "Armada",
+    "whyUs": "Keunggulan",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Sewa Mobil Terpercaya di Jogja",
+    "subtitle": "Armada prima, bersih, dan siap antar keliling Yogyakarta.",
+    "cta": "Pilih Mobil"
+  },
+  "fleet": {
+    "title": "Pilihan Mobil",
+    "subtitle": "Dua opsi terbaik untuk kebutuhan perjalanan Anda di Jogja",
+    "perDay": "/hari",
+    "bookNow": "Sewa via WhatsApp"
+  },
+  "whyUs": {
+    "title": "Kenapa Memilih Kami?",
+    "points": [
+      {
+        "title": "Unit Bersih & Terawat",
+        "desc": "Rutin servis berkala dan selalu dibersihkan sebelum serah terima."
+      },
+      {
+        "title": "Bisa Lepas Kunci / Driver",
+        "desc": "Pilihan fleksibel sesuai preferensi liburan Anda."
+      },
+      {
+        "title": "Antar-Jemput Gratis",
+        "desc": "Area Stasiun Tugu, Lempuyangan, dan Bandara YIA (S&K berlaku)."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Semua hak dilindungi undang-undang."
+  }
+}
